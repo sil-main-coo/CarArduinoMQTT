@@ -1,0 +1,13 @@
+#JSGF V1.0;
+
+grammar menu;
+
+public <item> = (turn left
+                    |turn live
+                    |turn left's
+                    |cancel
+                    |stop
+                    |turn right
+                    |turn right's
+                    |go ahead
+                    |go back);
